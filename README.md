@@ -63,11 +63,11 @@ fun AnimatedBlobDemo() {
 
 ## 🌈 Showcase Animations
 
-| Animation            | Preview                                                                                | Description                                                       |
-|----------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| 💓 **Heartbeat**     | ![Heartbeat](https://github.com/iprashant/iprashantpanwar/Composio/arts/heartbeat.gif) | A smooth pulsing animation with expanding ripple waves.           |
-| 🌊 **RippleWave**    | ![WaveMotion](https://github.com/iprashantpanwar/Composio/arts/ripplewavemotion.gif)   | Dynamic, fluid wave animation using `Canvas` and Bézier curves.   |
-| 🧠 **MorphingBlob**  | ![MorphingBlob](https://github.com/iprashantpanwar/Composio/arts/blob.gif)             | Organic blob morphing through randomized control points.         |
+| Animation            | Preview                                                                                        | Description                                                               |
+|----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| 💓 **Heartbeat**     | ![Heartbeat](https://github.com/iprashantpanwar/Composio/blob/main/arts/heartbeat.gif)         | A smooth pulsing animation with rhythmic heart beats.                     |
+| 🌊 **RippleWave**    | ![WaveMotion](https://github.com/iprashantpanwar/Composio/blob/main/arts/ripplewavemotion.gif) | Dynamic, fluid wave animation using `Canvas`.                             |
+| 🧠 **MorphingBlob**  | ![MorphingBlob](https://github.com/iprashantpanwar/Composio/blob/main/arts/blob.gif)           | Organic blob morphing through randomized control points and Bézier curves. |
 
 ## 🖼️ Contribution
 > ️ *To contribute your animation preview:*
