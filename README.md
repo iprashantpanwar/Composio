@@ -21,7 +21,7 @@ It’s designed to help developers explore motion in Compose — from subtle mic
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/Composio.git
+git clone https://github.com/iprashantpanwar/Composio.git
 ```
 
 ### 2. Open in Android Studio
@@ -38,11 +38,23 @@ Hit **Run ▶️** on the sample module to preview all animations in action.
 
 ```kotlin
 @Composable
-fun AnimatedLoaderDemo() {
-    ComposioLoader(
+fun AnimatedBlobDemo() {
+    MorphingBlob(
         modifier = Modifier
-            .size(80.dp)
-            .padding(16.dp)
+            .size(260.dp)
+            .padding(innerPadding),
+        morphPoints = 6,
+        blobStyle = BlobStyle(
+            effect = BlobEffect(blurRadius = 1f, alpha = 0.5f),
+            shader = BlobShader.Radial(
+                colors = listOf(
+                    Color(0xFFF97272), Color(
+                        0xFF673AB7
+                    )
+                )
+            ),
+            shape = BlobShape.Fill
+        )
     )
 }
 ```
